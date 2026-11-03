@@ -1,0 +1,7 @@
+{
+  "rows": 22357,
+  "features": 30000,
+  "fit_seconds": 66.49053550000099,
+  "clusters": 30,
+  "minibatch": false
+}

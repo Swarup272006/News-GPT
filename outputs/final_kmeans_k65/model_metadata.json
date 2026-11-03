@@ -1,0 +1,28 @@
+{
+    "project": "NewsGPT",
+    "selected_algorithm": "K-Means",
+    "text_representation": "TF-IDF",
+    "number_of_clusters": 65,
+    "max_features": 40000,
+    "min_df": 3,
+    "max_df": 0.85,
+    "ngram_range": [
+        1,
+        2
+    ],
+    "stopwords": "English",
+    "sublinear_tf": true,
+    "random_state": 42,
+    "dataset_articles": 22357,
+    "vocabulary_size": 40000,
+    "training_time_seconds": 140.87,
+    "inertia": 20868.048828125,
+    "silhouette_score": 0.02794,
+    "silhouette_sample_size": 3000,
+    "limitations": [
+        "Some clusters contain semantically unrelated articles",
+        "Multilingual stopword removal is incomplete",
+        "Cluster sizes are uneven",
+        "Silhouette score indicates substantial cluster overlap"
+    ]
+}
